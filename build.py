@@ -6,7 +6,7 @@ from shutil import which, rmtree
 from termcolor import colored
 
 BUILD_DIR: str = "build"
-EXEC_NAME: str = "run"
+EXEC_NAME: str = "baxter"
 NINJA: str = "-G Ninja"
 
 CXX_COMPILER_PRIORITY = ["clang++", "g++", "msvc"]
